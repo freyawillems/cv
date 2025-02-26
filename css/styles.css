@@ -14,16 +14,22 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #f8f8fc;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #f8f8fc;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #d8fc92;
 }
+
+.resume-name {
+	color: #C1FF4D;
+	text-shadow: gray 1px 1px 1px;
+}
+
 
 /* Styles for lists in the document */
 
@@ -48,4 +54,9 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+/* Styles for text elements */
+.link-color {
+	color: #202030;
 }
