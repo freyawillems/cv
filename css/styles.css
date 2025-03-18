@@ -3,19 +3,39 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Libre Baskerville";
 	color: #202030;
 	background-color: #f8f8fc;
+	font-size:smaller;
+}
+
+.main-text {
+	font-family: 'Libre Baskerville';
+	font-size:smaller ;
+}
+
+h2, h5, h6 { 
+	font-family: 'League Spartan';
+}
+.green-title {
+	color: #C1FF4D;
+	text-shadow: grey 1px 1px 2px;
+	font-family: 'League Spartan';
+}
+
+.div-shadow {
+	box-shadow: gray 1px 1px 6px;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
     background-color: #C1FF4D;
-	font-family: 'League Spartan';
+	font-family: 'Libre Baskerville';
 	font-weight: bold;
 }
 
@@ -39,7 +59,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #202030;
 }
 
 .biography-details li, .skill-list li {
@@ -57,3 +77,4 @@ body {
 .link-color {
 	color: #202030;
 }
+
